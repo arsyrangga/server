@@ -1,0 +1,42 @@
+.chatContainer{
+    min-width: 10vw;
+    width: auto;
+    max-width: 50vw;
+    height: auto ;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Play";
+    background-color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.chatHeader{
+    font-size: 9pt;
+    font-weight: normal;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.chatBody{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    text-align: justify;
+    font-size: 11pt;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .chatContainer{
+        max-width: 70vw;
+    }
+}

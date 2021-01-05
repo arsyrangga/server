@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "email": "arsyrangga@gmail.com",
+      "password": "$2a$10$ogb5fw9.PG/hMzPO3iAxm.aROAJbEUfJB1ewXUf60DaEoTwDjwNZi",
+      "id": 1
+    },
+    {
+      "email": "ranggantwleng77@gmail.com",
+      "password": "$2a$10$Q5viBBAQFqG8nhrHct.4BuVmU/gSjfbB1.JXSiO/VBqHeFXKA6Rtq",
+      "username": "ranggarsy",
+      "id": 2
+    }
+  ],
+  "chats": [
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "title": "Rangga",
+      "body": "Teh!",
+      "id": 1
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "testering",
+      "id": 2
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "testerings",
+      "id": 3
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "ngetest cok",
+      "id": 4
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "Ngeteh Lah",
+      "id": 5
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "test",
+      "id": 6
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum itaque praesentium enim consequuntur hic ad sit quidem ipsa ab a sunt recusandae consectetur, earum quis reprehenderit non distinctio neque aspernatur?",
+      "id": 7
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "<script>alert(\"test\")</script>",
+      "id": 8
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "<p style=\"color:red\">Teh!!</p>",
+      "id": 9
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum itaque praesentium enim consequuntur hic ad sit quidem ipsa ab a sunt recusandae consectetur, earum quis reprehenderit non distinctio neque aspernatur?",
+      "id": 10
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "<p style='color:red'>test</p>",
+      "id": 11
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum itaque praesentium enim consequuntur hic ad sit quidem ipsa ab a sunt recusandae consectetur, earum quis reprehenderit non distinctio neque aspernatur?",
+      "id": 12
+    },
+    {
+      "users": "ranggantwleng77@gmail.com",
+      "body": "test",
+      "id": 13
+    }
+  ]
+}

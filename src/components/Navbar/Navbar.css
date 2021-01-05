@@ -1,0 +1,90 @@
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    background: linear-gradient(180deg, #5BCF51 0%, #35BA2A 100%);
+    color: white;
+    font-family: 'Roboto';
+    position: fixed;
+    top: 0;
+}
+
+.navLogo{
+    color: white;
+    font-size: 16pt;
+    background-color: #d8d8d8;
+    border-radius: 90px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-right{
+    width: 20%;
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menuLogo{
+    color: white;
+    font-size: 18pt;
+    cursor: pointer;
+    width: 25px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar h3{
+    margin-left: 17px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.modalMenu{
+    width: 150px;
+    min-height: 35px;
+    height: auto;
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    background-color: rgb(218, 47, 47);
+    border-radius: 0 0 0 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.modalMenu h3 {
+    font-size: 12pt;
+}
+
+@media only screen and (max-width:600px){
+    .navbar{
+        padding: 0 6%;
+        height: 60px;
+    }
+
+    .modalMenu{
+        top: 60px;
+        width: 100px;
+        min-height: 40px;
+    }
+
+    .navbar h3{
+    margin-left: 10px;
+
+    }
+}
