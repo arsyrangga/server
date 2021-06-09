@@ -4,6 +4,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Home from './components/Page/Home/Home';
 import Login from './components/Page/Login/Login';
 import Register from './components/Page/Register/Register';
+import ImageThumb from './components/Page/imagethumb/ImageThumb';
 
 
 const App = () => {
@@ -12,6 +13,10 @@ const App = () => {
     <BrowserRouter>
     <main className="App">
     <Switch>
+
+    <Route path="/thumb">
+    <Home />
+    </Route>
 
     <Route path="/register">
       <Register />
@@ -26,7 +31,7 @@ const App = () => {
       </Route>
 
       <Route path='/'>
-        <Home />
+        <ImageThumb />
       </Route>
 
     </Switch>
